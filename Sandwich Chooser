@@ -1,1 +1,36 @@
+bread_type = input("Do we have challah that's ok? (yes/no): ")
+
+if bread_type == "yes":
+    tuna = input("Great, do we have tuna? (yes/no): ")
+    if tuna == "yes":
+        print("Make a tuna sandwich on challah.")
+    else:
+        chocolate = input("Do we have chocolate? (yes/no): ")
+        if chocolate == "yes":
+            print("Make a chocolate sandwich on challah.")
+        else:
+            avo = input("Do we have avocado? (yes/no): ")
+            if avo == "yes":
+                print("Make an avocado sandwich on challah.")
+            else:
+                print("I'll buy something from the canteen, thanks though.")
+
+elif bread_type == "no":
+    bagel = input("Do we have a bagel that's ok? (yes/no): ")
+    if bagel == "yes":
+        tuna = input("Great, do we have tuna? (yes/no): ")
+        if tuna == "yes":
+            print("Make a tuna sandwich on a bagel please.")
+        else:
+            chocolate = input("Do we have chocolate? (yes/no): ")
+            if chocolate == "yes":
+                print("Make a chocolate sandwich on a bagel please.")
+            else:
+                avo = input("Do we have avocado? (yes/no): ")
+                if avo == "yes":
+                    print("Make an avocado sandwich on a bagel please.")
+                else:
+                    print("I'll buy something from the canteen, thanks though.")
+    else:
+        print("I'll buy something from the canteen, thanks though.")
 
